@@ -69,7 +69,7 @@ public class insertTest {
     void checkResult() {
         assertEquals(expected, got);
     }
-
+    //simple insert
     @Test
     void simpleInsert() {
         got.insert(rootKey);
